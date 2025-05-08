@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Groq Chat Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        #response {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e6f7ff;
+            border: 1px solid #91d5ff;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>Groq Chat Demo</h1>
+<input type="text" id="userMessage" placeholder="Type your message here..." style="width: 300px; padding: 5px;">
+<button id="sendButton">Send</button>
+
+<div id="response">
+    <strong>Response:</strong>
+    <p id="responseText">No response yet.</p>
+</div>
+
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
